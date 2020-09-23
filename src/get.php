@@ -12,7 +12,7 @@ class GetTest
             'base_uri' => 'http://zipcloud.ibsnet.co.jp',
         ]);
 
-        $response = $client->request('GET', $uri, []);
+        $response = $client->request('GET', '/api/search?zipcode=211-0005', []);
         $list = json_decode($response->getBody()->getContents(), true);
 
         var_dump($list);
