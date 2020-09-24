@@ -1,4 +1,12 @@
 {
+    "name": "kitaji0306/guzzle-test",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Yu Kitajima",
+            "email": "kitaji306@gmail.com"
+        }
+    ],
     "require": {
         "guzzlehttp/guzzle": "^6.5"
     }
